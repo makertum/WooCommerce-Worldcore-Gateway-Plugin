@@ -31,3 +31,6 @@ Worldcore.eu is a new and innovative, EU-regulated payment institution that chal
 
 ## Disclaimer
 - use this plugin at own risk
+
+## License
+Licensed under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
