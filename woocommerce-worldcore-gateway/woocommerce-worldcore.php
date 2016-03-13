@@ -1,4 +1,9 @@
 <?php
+/*
+Worldcore.eu - WooCommerce Gateway
+http://www.makertum.com/
+Licensed under GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+*/
 class MKT_WORLDCORE extends WC_Payment_Gateway{
 	// GATEWAY SETUP
 	function __construct() {

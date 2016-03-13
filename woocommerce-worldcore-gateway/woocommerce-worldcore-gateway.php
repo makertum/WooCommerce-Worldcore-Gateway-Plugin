@@ -6,6 +6,7 @@ Description: Extends WooCommerce by Adding the Worldcore.eu Gateway.
 Version: 0.1
 Author: Moritz Walter
 Author URI: http://www.makertum.com
+License: GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 // Include our Gateway Class and Register Payment Gateway with WooCommerce
