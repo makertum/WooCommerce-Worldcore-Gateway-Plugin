@@ -4,7 +4,8 @@ Extends WooCommerce by adding the Worldcore.eu Gateway.
 ## Project status and features
 - [x] implements worldcore.eu SCI API
 - [x] lets customers checkout via worldcore.eu
-- [x] checks if orders have actually been paid via API
+- [x] provides WC_API endpoint for the SCI status callback
+- [x] checks if orders have actually been paid
 - [ ] not logging
 - [ ] no sandbox mode
 
