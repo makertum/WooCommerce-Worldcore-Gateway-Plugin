@@ -1,5 +1,5 @@
 # Worldcore.eu - WooCommerce Gateway
-Extends WooCommerce by Adding the Worldcore.eu Gateway.
+Extends WooCommerce by adding the Worldcore.eu Gateway.
 
 ## Project status and features
 - [x] implements worldcore.eu SCI API
@@ -19,7 +19,7 @@ Extends WooCommerce by Adding the Worldcore.eu Gateway.
 7. Your customers now can pay via worldcore.eu
 
 ## Why?
-Worldcore.eu is a new and innovative, EU-regulated payment institution that challenges the settled PayPal and Card based payment landscape:
+Worldcore.eu is a new and innovative, EU-regulated payment institution that challenges the settled PayPal and card based payment landscape:
 - Internal payments between worldcore.eu accounts are free
 - Transfers from your own bank account to your worldcore account are also free
 - International and multi-currency money transfer
