@@ -21,14 +21,19 @@ Extends WooCommerce by adding the Worldcore.eu Gateway.
 
 ## Why?
 Worldcore.eu is a new and innovative, EU-regulated payment institution that challenges the settled PayPal and card based payment landscape:
+
 - Internal payments between worldcore.eu accounts are free
 - Transfers from your own bank account to your worldcore account are also free
-- International and multi-currency money transfer
-- Traditional outgoing bank wire for worldcore.eu credit to any bank account on the planet (fee: 0.75%)
 - Funding via Bitcoin
 - Prepaid MasterCard
+- Fast verification process
+
+Because of its strong focus on credit card use, where all the money in the Worldcore ecosystem is eventually spent via credit card, Worldcore is primarily a payment solution for customers and between individuals and yet has to grow on the corporate side. Nevertheless, it has already some good arguments over PayPal and alike:
+
 - API for eCommerce
 - No funding/withdrawal limits for corporate accounts
+
+Get your Worldcore account for free on [worldcore.eu](https://worldcore.eu/).
 
 ## Disclaimer
 - use this plugin at own risk
