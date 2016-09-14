@@ -1,6 +1,6 @@
 <?php
 /*
-Worldcore.eu - WooCommerce Gateway
+Payment Gateway for Worldcore.eu and WooCommerce
 http://www.makertum.com/
 Licensed under GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -12,7 +12,6 @@ class MKT_WORLDCORE extends WC_Payment_Gateway{
 		$this->method_title = __( "Worldcore", 'mkt-worldcore' );
 		$this->method_description = __( "Worldcore Payment Gateway Plug-in for WooCommerce", 'mkt-worldcore' );
 		$this->title = __( "Worldcore", 'mkt-worldcore' );
-		$this->icon = "https://worldcore.eu/images/pink_logo.png";
 
 		// Since this a pure redirect gateway, we have no fields
 		$this->has_fields = false;
@@ -27,6 +26,9 @@ class MKT_WORLDCORE extends WC_Payment_Gateway{
 		foreach ( $this->settings as $setting_key => $value ) {
 			$this->$setting_key = $value;
 		}
+
+		if($this->icon_url != '')
+			$this->icon = $this->icon_url; // i.e. https://worldcore.eu/images/pink_logo.png
 
 		// SSL check
 		add_action( 'admin_notices', array( $this,	'do_ssl_check' ) );
@@ -63,6 +65,13 @@ class MKT_WORLDCORE extends WC_Payment_Gateway{
 				'type'		=> 'textarea',
 				'desc_tip'	=> __( 'Payment description the customer will see during the checkout process.', 'mkt-worldcore' ),
 				'default'	=> __( 'Pay easily and fast via worldcore.eu', 'mkt-worldcore' ),
+				'css'		=> 'max-width:350px;'
+			),
+			'icon_url' => array(
+				'title'		=> __( 'Icon URL', 'mkt-worldcore' ),
+				'type'		=> 'textarea',
+				'desc_tip'	=> __( 'URL of the icon image file, shown next to the payment method during the checkout process.', 'mkt-worldcore' ),
+				'default'	=> __( '', 'mkt-worldcore' ),
 				'css'		=> 'max-width:350px;'
 			),
 			'api_key' => array(

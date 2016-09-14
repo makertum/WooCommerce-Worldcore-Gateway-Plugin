@@ -1,15 +1,21 @@
-# Payment Gateway for Worldcore.eu and WooCommerce
-Extends WooCommerce by adding the Worldcore.eu payment Gateway.
+=== Payment Gateway for Worldcore.eu and WooCommerce ===
+Contributors: makertum
+Donate link: http://makertum.com/
+Tags: WooCoomerce, Worldcore, worldcore.eu, payment, gateway, SCI
+Requires at least: 3.0.1
+Tested up to: 4.4.2
+Stable tag: 4.4.2
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-## Project status and features
-- [x] implements worldcore.eu SCI API
-- [x] lets customers checkout via worldcore.eu
-- [x] provides WC_API endpoint for the SCI status callback
-- [x] checks if orders have actually been paid
-- [ ] not logging
-- [ ] no sandbox mode
+Extends WooCommerce by adding the Worldcore.eu Gateway.
 
-## How to use
+== Description ==
+
+Extends WooCommerce by adding the Worldcore.eu Gateway, so that customers can pay for their orders with their Worldcore accounts.
+
+== Installation ==
+
 1. Upload the plugin files to the `/wp-content/plugins/woocommerce-worldcore-gateway` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Log in to your Worldcore account via [worldcore.eu](https://worldcore.eu)
@@ -19,7 +25,10 @@ Extends WooCommerce by adding the Worldcore.eu payment Gateway.
 7. Use the WooCommerce->Settings->Checkout->Worldcore screen to configure the plugin: Enable the payment method and enter the worldcore.eu API credentials as well as the Worldcore account number that shall receive the payments, you may also want to set the icon to https://worldcore.eu/images/pink_logo.png, click 'Save changes'
 8. Your customers now can pay via Worldcore.eu
 
-## Why?
+== Frequently Asked Questions ==
+
+= What is Worldcore.eu? =
+
 Worldcore.eu is a new and innovative, EU-regulated payment institution that challenges the settled PayPal and card based payment landscape:
 
 - Internal payments between worldcore.eu accounts are free
@@ -35,8 +44,28 @@ Because of its strong focus on credit card use, where all the money in the World
 
 Get your Worldcore account for free on [worldcore.eu](https://worldcore.eu/).
 
-## Disclaimer
+An answer to that question.
+
+= Disclaimer =
+
 Use this plugin at your own risk.
 
-## License
-Licensed under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
+== Screenshots ==
+
+1. Settings Panel
+2. Checkout Option
+2. Payment Process
+2. Payment Confirmation
+
+== Changelog ==
+
+= 0.1 =
+* implements worldcore.eu SCI API
+* lets customers checkout via worldcore.eu
+* provides WC_API endpoint for the SCI status callback
+* checks if orders have actually been paid
+
+== Upgrade Notice ==
+
+= 0.1 =
+No precautions necessary.

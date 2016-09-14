@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Worldcore.eu - WooCommerce Gateway
+Plugin Name: Payment Gateway for Worldcore.eu and WooCommerce
 Plugin URI: http://www.makertum.com/
 Description: Extends WooCommerce by Adding the Worldcore.eu Gateway.
 Version: 0.1
